@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; */
+  /* I applied box-sizing and it altered some settings. I don't fully understand this styling. */
 }
 body {
   background: #b993d6; /* fallback for old browsers */
@@ -118,14 +120,16 @@ span {
 hr {
   background-color: #5762d6;
   height: 2px;
+  
   border: none;
   width: 10%;
-  margin: 0px auto 50px;
+  margin: 0px 16rem 50px;
 }
 form {
   /* display: block; */
-  width: 50%;
+  width: 55%;
   margin: auto;
+  /* margin-left: 50px; */
   font-size: 16px;
 }
 label {
@@ -145,31 +149,63 @@ label {
   font-size: smaller;
   margin-right: 10px;
   margin-top: 2px;
+  padding-left: 20px;
   /* The icon still displays as a block element  */
   /* display: inline; */
 }
 .printer-type {
   background-color: #273b54;
-  font-size: 13px;
-  /* padding: 10px; */
+  font-size: 11px;
   border-radius: 30px;
-  /* height: 40px; */
-  /* width: 23em; */
-  /* box-sizing: border-box; */
+  width: 18.4rem;
   text-align: center;
   display: flex;
   margin: 0px 20px 5px 5px;
   /* After using display flex the icon isn't on the same line as the text */
 }
 #p-type{
-  background-color: #273b54;
+  background-color: transparent;
   border: none;
   color: white;
-  /* margin-left: 45px; */
-  /* border-left: 1px solid #102542; */
+  margin-left: 7px;
 }
 .verticalLine{
   border-left: 1px solid #102542;
-  margin-left: 20px;
+  margin-left: 60px;
   height: 40px;
+}
+.center{
+  padding-top: 13px;
+}
+.charity{
+  font-size: 12px;
+  margin: 30px 0px 30px 40px;
+}
+button{
+  width: 8rem;
+  height: 3rem;
+  border-radius: 30px;
+  border: none;
+  color: rgb(207, 206, 206);
+  font-size: 0.7rem;
+}
+.first{
+  margin-left: 0.7rem;
+  background-color: #5762d6;
+  font-weight: 700;
+}
+.second{
+  margin-left: 1.7em;
+  background-color: #273b54;
+}
+.fa-regular{
+  margin-left: 4rem;
+  font-size: 0.8rem;
+}
+.submit{
+  background-color: #5762d6;
+  width: 100%;
+  border-radius: 0;
+  margin-top: 10.1em;
+  border-bottom-right-radius: 5px;
 }

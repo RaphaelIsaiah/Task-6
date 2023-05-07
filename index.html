@@ -41,7 +41,7 @@
         </div>
         <h1 class="rsHead">Arrange a collection</h1>
         <hr />
-        <form action="#">
+        <form action="#" id="printerForm">
           <label for="name">Name</label>
           <input size="40" class="borbot" type="text" id="name" />
 
@@ -57,8 +57,8 @@
           <label for="postcode">Post Code</label>
           <input size="40" class="borbot" type="text" id="name" />
           <div class="printer-type">
-            <i class="fa-solid fa-print"></i>
-            CARTRIDGE/PRINTER TYPES
+            <i class="fa-solid fa-print center"></i>
+            <p class="center">CARTRIDGE/PRINTER TYPES</p>
             <!-- <p>CARTRIDGE/PRINTER TYPES</p> -->
             <!-- I realized that the <p> tag made the icon misbehave but without the p tag the icon sits on the same position as the text.-->
               <div class="verticalLine"></div>
@@ -70,10 +70,18 @@
               <option value="laser">Laser Printer</option>
               <option value="inkjet">Ink Jet Printer</option>
               <option value="dotmatrix">Dot Matrix Printer</option>
-              <option value="led">Led Printer</option>
-            </select> -->
+              <option value="led">Led Printer</option> -->
+            </select>
           </div>
+          <div>
+            <p class="charity">Would you like to make a charity donation?</p>
+            <!-- I'm not sure if button is the right element to use here... -->
+            <button class="first">Yes <i class="fa-regular fa-face-grin"></i></button>
+            <button class="second">No <i class="fa-regular fa-face-frown"></i></button>
+          </div>
+          
         </form>
+        <button class="submit" type="submit" form="printerForm">Submit</button>
       </div>
     </div>
   </body>
