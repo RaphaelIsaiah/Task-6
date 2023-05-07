@@ -16,18 +16,17 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 50px;
 }
-.containerDiv{
-    /* border-radius: 40px; */
-    display: flex;
-    flex-direction: row;
-    /* margin: 50px; */
+.containerDiv {
+  /* border-radius: 40px; */
+  display: flex;
+  flex-direction: row;
+  /* margin: 50px; */
 }
 .inkSplash {
   width: 12rem;
   height: 3.6rem;
   position: absolute;
   border-radius: 5px;
-  
 }
 .wordsOnInk {
   position: relative;
@@ -40,14 +39,13 @@ body {
   /* font-weight: 2000; */
   /* width: 50%; */
 }
-.owner{
+.owner {
   /* width: 50%; */
   margin: 0px 80px 10px;
   height: 450px;
   width: 40vw;
   /* margin: 0rem 10rem; */
   /* border: 1px solid black; */
-  
 }
 span {
   color: #62c9ad;
@@ -60,7 +58,7 @@ span {
   /* margin: auto; */
   /* justify-content: center; */
 }
-.rightSide{
+.rightSide {
   background-color: #102542;
   color: rgb(207, 206, 206);
   flex: 2;
@@ -68,27 +66,27 @@ span {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.leftSide{
-  background-color: #FFFFFF;
+.leftSide {
+  background-color: #ffffff;
   flex: 2;
   width: 55%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   /* box-sizing: border-box; */
 }
-.readMore{
+.readMore {
   text-align: center;
   /* align-items: center; */
   padding: 20px 20px 10px 20px;
   /* padding-top: 20px; */
   margin: 20px auto 0px;
   color: white;
-  background-color: #5663D1;
+  background-color: #5663d1;
   width: 100px;
   height: 40px;
   border-radius: 600px 600px 0 0;
 }
-.header{
+.header {
   /* color: #FFFFFF; */
   /* text-align: right; */
   /* margin-right: 20px; */
@@ -96,35 +94,82 @@ span {
   display: flex;
   justify-content: flex-end;
 }
-.spread, .fa-sharp{
+.spread,
+.fa-sharp {
   /* margin-right: 10px; */
   font-size: 11px;
 }
 .fa-sharp {
-  display: inline;
+  /* I don't think that the display:inline here is working*/
+  display: inline; 
   font-size: 14px;
   border: 1px solid white;
   padding: 7px;
   border-radius: 50%;
 }
-.rsHead{
-  /* border-bottom: 2px solid #37487A; */
-  padding-bottom: 15px;
-  text-align: center;
+.rsHead {
+  /* padding-bottom: 15px;
+  padding-left: 10px; */
+  padding: 30px 0px 20px 30px;
+  /* text-align: center; */
+  width: 50%;
+  margin: auto;
 }
-hr{
-  background-color: #5762D6;
+hr {
+  background-color: #5762d6;
   height: 2px;
   border: none;
   width: 10%;
   margin: 0px auto 50px;
 }
-form{
-  
+form {
+  /* display: block; */
+  width: 50%;
+  margin: auto;
+  font-size: 16px;
 }
-.borbot{
+label {
+  display: block;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+.borbot {
   background-color: #102542;
   border-style: none;
   border-bottom: 0.5px solid rgb(138, 135, 135);
-  
+  margin-bottom: 30px;
+  color: rgb(204, 177, 177);
+  outline: none;
+}
+.fa-print {
+  font-size: smaller;
+  margin-right: 10px;
+  margin-top: 2px;
+  /* The icon still displays as a block element  */
+  /* display: inline; */
+}
+.printer-type {
+  background-color: #273b54;
+  font-size: 13px;
+  /* padding: 10px; */
+  border-radius: 30px;
+  /* height: 40px; */
+  /* width: 23em; */
+  /* box-sizing: border-box; */
+  text-align: center;
+  display: flex;
+  margin: 0px 20px 5px 5px;
+  /* After using display flex the icon isn't on the same line as the text */
+}
+#p-type{
+  background-color: #273b54;
+  border: none;
+  color: white;
+  /* margin-left: 45px; */
+  /* border-left: 1px solid #102542; */
+}
+.verticalLine{
+  border-left: 1px solid #102542;
+  margin-left: 20px;
+  height: 40px;
 }
