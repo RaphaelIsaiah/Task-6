@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #b993d6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 50px;
+}
+.containerDiv{
+    /* border-radius: 40px; */
+    display: flex;
+    flex-direction: row;
+    /* margin: 50px; */
+}
+.inkSplash {
+  width: 12rem;
+  height: 3.6rem;
+  position: absolute;
+  border-radius: 5px;
+  
+}
+.wordsOnInk {
+  position: relative;
+  margin: 10px;
+}
+.mainHeading {
+  text-align: center;
+  margin: 50px auto 20px auto;
+  font-size: 10vh;
+  /* font-weight: 2000; */
+  /* width: 50%; */
+}
+.owner{
+  /* width: 50%; */
+  margin: 0px 80px 10px;
+  height: 450px;
+  width: 40vw;
+  /* margin: 0rem 10rem; */
+  /* border: 1px solid black; */
+  
+}
+span {
+  color: #62c9ad;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #62c9ad;
+}
+.imgText {
+  text-align: center;
+  /* width: 60%; */
+  /* margin: auto; */
+  /* justify-content: center; */
+}
+.rightSide{
+  background-color: #102542;
+  color: #FFFFFF;
+  flex: 2;
+  width: 45%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.leftSide{
+  background-color: #FFFFFF;
+  flex: 2;
+  width: 55%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  /* box-sizing: border-box; */
+}
+.readMore{
+  text-align: center;
+  /* align-items: center; */
+  padding: 20px 20px 10px 20px;
+  /* padding-top: 20px; */
+  margin: 20px auto 0px;
+  color: white;
+  background-color: #5663D1;
+  width: 100px;
+  height: 40px;
+  border-radius: 600px 600px 0 0;
+}
+.header{
+  /* color: #FFFFFF; */
+  /* text-align: right; */
+  /* margin-right: 20px; */
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+.spread, .fa-sharp{
+  /* margin-right: 10px; */
+  font-size: 11px;
+}
+.fa-sharp {
+  display: inline;
+  font-size: 14px;
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 50%;
+}
+.rsHead{
+  /* border-bottom: 2px solid #37487A; */
+  padding-bottom: 15px;
+  text-align: center;
+}
+hr{
+  background-color: #5762D6;
+  height: 2px;
+  border: none;
+  width: 10%;
+  margin: auto;
+}
