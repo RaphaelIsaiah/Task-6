@@ -83,12 +83,12 @@ span {
   justify-content: flex-end;
 }
 
-.spread{
+.spread {
   font-size: 0.7rem;
   position: absolute;
   margin-right: 3.9rem;
 }
-.fa-share-nodes{
+.fa-share-nodes {
   position: relative;
   bottom: 0.9em;
   margin-right: 1rem;
@@ -107,7 +107,7 @@ span {
 hr {
   background-color: #5762d6;
   height: 2px;
-  
+
   border: none;
   width: 10%;
   margin: 0px 16rem 50px;
@@ -145,26 +145,26 @@ label {
   display: flex;
   margin: 0px 20px 5px 5px;
 }
-#p-type{
+#p-type {
   background-color: transparent;
   border: none;
   color: white;
   margin-left: 7px;
 }
-.verticalLine{
+.verticalLine {
   border-left: 1px solid #102542;
   margin-left: 60px;
   height: 40px;
 }
-.center{
+.center {
   padding-top: 13px;
 }
-.charity{
+.charity {
   font-size: 12px;
   margin: 30px 0px 30px 40px;
   font-weight: 600;
 }
-button{
+button {
   width: 8rem;
   height: 3rem;
   border-radius: 30px;
@@ -172,22 +172,22 @@ button{
   color: rgb(207, 206, 206);
   font-size: 0.7rem;
 }
-.first{
+.first {
   margin-left: 0.7rem;
   background-color: #5762d6;
 }
-.second{
+.second {
   margin-left: 1.7em;
   background-color: #273b54;
 }
-.yen{
+.yen {
   margin-left: 2.3rem;
 }
-.fa-regular{
+.fa-regular {
   margin-left: 2rem;
   font-size: 0.8rem;
 }
-.submit{
+.submit {
   background-color: #5762d6;
   width: 100%;
   border-radius: 0;
@@ -199,9 +199,9 @@ button{
   justify-content: space-around;
   padding: 30px 0px 45px;
 }
-.fa-arrow-right{
+.fa-arrow-right {
   margin-left: 12rem;
 }
-#finish{
+#finish {
   margin-left: 15rem;
 }
