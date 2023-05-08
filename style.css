@@ -57,9 +57,7 @@ span {
 }
 .imgText {
   text-align: center;
-  /* width: 60%; */
-  /* margin: auto; */
-  /* justify-content: center; */
+  line-height: 1.3rem;
 }
 .rightSide {
   background-color: #102542;
@@ -90,17 +88,11 @@ span {
   border-radius: 600px 600px 0 0;
 }
 .header {
-  /* color: #FFFFFF; */
-  /* text-align: right; */
-  /* margin-right: 20px; */
   margin-top: 25px;
   display: flex;
   justify-content: flex-end;
 }
-.spread {
-  /* margin-right: 10px; */
-  /* font-size: 11px; */
-}
+
 .spread{
   font-size: 0.7rem;
   position: absolute;
@@ -220,7 +212,7 @@ button{
   background-color: #5762d6;
   width: 100%;
   border-radius: 0;
-  margin-top: 5.02em;
+  margin-top: 5.52em;
   border-bottom-right-radius: 5px;
   text-align: center;
   font-size: 1rem;
