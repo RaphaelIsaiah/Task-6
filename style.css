@@ -19,9 +19,10 @@ body {
   padding: 50px;
 }
 .containerDiv {
-  /* border-radius: 40px; */
   display: flex;
   flex-direction: row;
+  box-shadow: 5px 10px 30px rgb(145, 133, 133);
+  /* box-sizing: border-box; */
   /* margin: 50px; */
 }
 .inkSplash {
@@ -96,17 +97,26 @@ span {
   display: flex;
   justify-content: flex-end;
 }
-.spread,
-.fa-sharp {
+.spread {
   /* margin-right: 10px; */
-  font-size: 11px;
+  /* font-size: 11px; */
+}
+.spread{
+  font-size: 0.7rem;
+  position: absolute;
+  margin-right: 3.9rem;
+}
+.fa-share-nodes{
+  position: relative;
+  bottom: 0.9em;
+  margin-right: 1rem;
 }
 .fa-sharp {
   /* I don't think that the display:inline here is working*/
   display: inline; 
   font-size: 14px;
   border: 1px solid white;
-  padding: 7px;
+  padding: 0.6rem;
   border-radius: 50%;
 }
 .rsHead {
@@ -180,6 +190,7 @@ label {
 .charity{
   font-size: 12px;
   margin: 30px 0px 30px 40px;
+  font-weight: 600;
 }
 button{
   width: 8rem;
@@ -192,20 +203,35 @@ button{
 .first{
   margin-left: 0.7rem;
   background-color: #5762d6;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 .second{
   margin-left: 1.7em;
   background-color: #273b54;
 }
+.yen{
+  margin-left: 2.3rem;
+}
 .fa-regular{
-  margin-left: 4rem;
+  margin-left: 2rem;
   font-size: 0.8rem;
 }
 .submit{
   background-color: #5762d6;
   width: 100%;
   border-radius: 0;
-  margin-top: 10.1em;
+  margin-top: 5.02em;
   border-bottom-right-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  /* padding-top: 14px; */
+  padding: 30px 0px 45px;
+}
+.fa-arrow-right{
+  margin-left: 12rem;
+}
+#finish{
+  margin-left: 15rem;
 }

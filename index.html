@@ -59,11 +59,11 @@
           <div class="printer-type">
             <i class="fa-solid fa-print center"></i>
             <p class="center">CARTRIDGE/PRINTER TYPES</p>
-            <!-- <p>CARTRIDGE/PRINTER TYPES</p> -->
-            <!-- I realized that the <p> tag made the icon misbehave but without the p tag the icon sits on the same position as the text.-->
+            
               <div class="verticalLine"></div>
             <select name="printer-type" id="p-type">
-              <!-- The options under the select element are showing up when activated but the design needs it to look as though they are deactivated... 
+              <!-- Q1
+                The options under the select element are showing up when activated but the design needs it to look as though they are deactivated... 
               How do I activate them and still maintain the design-->
 
               <!-- <option value="empty"></option>
@@ -75,14 +75,19 @@
           </div>
           <div>
             <p class="charity">Would you like to make a charity donation?</p>
-            <!-- I'm not sure if button is the right element to use here... -->
-            <button class="first">Yes <i class="fa-regular fa-face-grin"></i></button>
-            <button class="second">No <i class="fa-regular fa-face-frown"></i></button>
+            <!-- Q2
+              I'm not sure if button is the right element to use here... -->
+            <button class="first"><b class="yen">Yes</b> <i class="fa-regular fa-face-grin"></i></button>
+            <button class="second"><b class="yen">No</b> <i class="fa-regular fa-face-frown"></i></button>
           </div>
           
         </form>
-        <button class="submit" type="submit" form="printerForm">Submit</button>
+        <button class="submit" type="submit" form="printerForm"><b id="finish">Submit</b><i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
+    <!-- Q3
+      Is there a way to make the submit button and the readmore button stick to the bottom of the container they both are inside? -->
+      <!--Q4
+         I don't know how to make the readmore be like a button that has other items... which I think would have made the purple scroll line between the left and the right sides active -->
   </body>
 </html>
